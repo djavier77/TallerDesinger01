@@ -1,0 +1,134 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2515"
+		}
+	],
+	"name": "BLI_sp_persona_tallerConsulta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6576_bli_sp_persona_tallerconsulta",
+	"patternName": "BLI_sp_persona_tallerConsulta",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "1352c7b1-765c-40e9-b156-bfef4e718dbc",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 3,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "1352c7b1-765c-40e9-b156-bfef4e718dbc",
+			"columns": [
+				{
+					"attributeId": "AT79_IDPERSNN691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT99_NOMBREFQ691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT67_APELLIOO691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT38_TELEFONN691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT77_SEXOUYLB691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "sexo",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT70_ESTADOII691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "estadocivil",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT84_NOMBRENO691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "nombreConyugue",
+					"position": 7,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT77_APELLIGD691",
+					"entityId": "EN_PERSONAHO_691",
+					"format": "",
+					"name": "apellidoConyugue",
+					"position": 8,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PERSONAHO_691",
+			"module": {
+				"moduleId": "MMSPA",
+				"moduleName": "Main"
+			},
+			"name": "Persona"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_persona_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

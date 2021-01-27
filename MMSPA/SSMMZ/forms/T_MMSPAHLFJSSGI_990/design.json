@@ -1,0 +1,395 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "MMSPA",
+		"subModuleId": "SSMMZ",
+		"taskId": "T_MMSPAHLFJSSGI_990",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_CCLIENTECT_559990",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../MMSPA/relations/componentKeys.json#/SSMMZ/Forms/T_MMSPAHLFJSSGI_990/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "SSMMZ",
+				"taskId": "T_MMSPAHLFJSSGI_990",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_CCLIENTECT_559990"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "formCCliente",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CCLIENTEEE_336847",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1853",
+						"order": 1,
+						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+								"Create",
+								"Update"
+							],
+							"allowPaging": true,
+							"allowPagingStr": "T",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": false,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": "LBL_MMSPA_AGREGARTC_40475",
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "3",
+							"entityName": {
+								"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT85_APELLIDO652",
+								"AT30_NOMBREOG652",
+								"AT25_CEDULAPY652",
+								"AT99_TELEFOOO652",
+								"AT12_IDCLIETN652",
+								"AT27_NACIONII652"
+							],
+							"insertCommandEnabled": true,
+							"insertCommandEnabledStr": "T",
+							"isCustomized": false,
+							"modalSize": "md",
+							"modeSelection": "None",
+							"moduleIdDialog": "MMSPA",
+							"multiSelectEnabledStr": "F",
+							"name": "QV_OH41_UYH16",
+							"options": 0,
+							"pageSize": 10,
+							"query": {
+								"$ref": "../../../../MMSPA/SSMMZ/queries/Q_CLIEETNT_CE41.json#"
+							},
+							"queryId": "Q_CLIEETNT_CE41",
+							"queryVersion": "1.0.0",
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_OH41_UYH16",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": "SSMMZ",
+							"taskIdDialog": "T_MMSPAPMSCBGLS_243",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": "VC_CLIENTEUFI_757243"
+						},
+						"queryViewId": "QV_OH41_UYH16",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT25_CEDULAPY652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "cedula",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXDLR_380847",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT99_TELEFOOO652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "telefono",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXHNN_260847",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT30_NOMBREOG652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXLTO_943847",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT12_IDCLIETN652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "idcliente",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXQVG_752847",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT27_NACIONII652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nacionalidad",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXYUE_196847",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT85_APELLIDO652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXZVV_351847",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_CCLIENTEAE_847"
+				},
+				"metadataVersion": "7.2.0.2020",
+				"modules": [
+					{
+						"moduleId": "MMSPA"
+					}
+				],
+				"name": "View of formCCliente"
+			}
+		}
+	]
+}

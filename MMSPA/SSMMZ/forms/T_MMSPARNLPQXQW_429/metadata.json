@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_PERSONAHO_691",
+			"isContextEntity": null,
+			"moduleId": "MMSPA",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

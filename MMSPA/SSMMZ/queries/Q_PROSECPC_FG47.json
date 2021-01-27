@@ -1,0 +1,202 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_PROSECPC_FG47_671",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_PROSECPC_FG47",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_PROSPECTO_215",
+	"mainEntityModule": "MMSPA",
+	"mainEntityName": {
+		"$ref": "../../../MMSPA/relations/componentKeys.json#/Entities/EN_PROSPECTO_215/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../MMSPA/relations/componentKeys.json#/SSMMZ/Queries/Q_PROSECPC_FG47/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT51_NOMBREJC215"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSE4CG47239_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "tipo",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT28_TIPOWRVF215"
+			},
+			"attributeQuery": "tipo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 7,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSE4FC7C179_07",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "estado",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT17_ESTADOME215"
+			},
+			"attributeQuery": "estado",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSE4PF4G373_05",
+			"select": true,
+			"selectStr": "T",
+			"where": true,
+			"whereStr": "T"
+		},
+		{
+			"alias": "fecha",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT13_FECHAVCG215"
+			},
+			"attributeQuery": "fecha",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEC7GG4708_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT49_TELEFOON215"
+			},
+			"attributeQuery": "telefono",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSECFGCP562_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT63_APELLIDD215"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEF4FCG108_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "idProspecto",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_PROSPECTO_215.json#/attributes/AT76_IDPROSTO215"
+			},
+			"attributeQuery": "idProspecto",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PROSEGGCCP853_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "SSMMZ"
+			}
+		}
+	]
+}

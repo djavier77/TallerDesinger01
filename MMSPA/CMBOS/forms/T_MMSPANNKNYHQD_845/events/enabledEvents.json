@@ -1,0 +1,44 @@
+[
+	{
+		"attributeName": "cboEstadoCivil",
+		"controlId": "VA_8683JYMWQUKXFNN_486329",
+		"controlName": "cboEstadoCivil",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Combos",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONGECOPYX_128329",
+		"controlName": "VA_VABUTTONGECOPYX_128329",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Combos",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_COMBOSVITS_273845",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

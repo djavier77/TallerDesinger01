@@ -1,0 +1,104 @@
+{
+	"CMBOS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMSPANNKNYHQD_845": {
+				"name": "FormEstadoCivil"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"Entities": {
+		"EN_1AQJUHBVX_806": {
+			"name": "Entity1"
+		},
+		"EN_CALCULAAO_911": {
+			"name": "Calculadora"
+		},
+		"EN_CLIENTEBS_652": {
+			"name": "Cliente"
+		},
+		"EN_COMBOSLGF_206": {
+			"name": "Combos"
+		},
+		"EN_FILTROBSR_597": {
+			"name": "FiltroBusquedaPersona"
+		},
+		"EN_FROMCUESS_414": {
+			"name": "FormCuentas"
+		},
+		"EN_PERSONAHO_691": {
+			"name": "Persona"
+		},
+		"EN_PROSPECTO_215": {
+			"name": "Prospecto"
+		}
+	},
+	"FRMCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMSPAUPOYJXFC_678": {
+				"name": "FormCuentas"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"OPRCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMSPAXOXWFUCW_176": {
+				"name": "Calculadora"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"SSMMZ": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMSPABTAQWZLK_834": {
+				"name": "formFiltro"
+			},
+			"T_MMSPADWHOHIER_529": {
+				"name": "formProspecto"
+			},
+			"T_MMSPAHLFJSSGI_990": {
+				"name": "formCCliente"
+			},
+			"T_MMSPAPMFWEXKV_515": {
+				"name": "formCPersona"
+			},
+			"T_MMSPAPMSCBGLS_243": {
+				"name": "formCliente"
+			},
+			"T_MMSPARNLPQXQW_429": {
+				"name": "formPersona"
+			}
+		},
+		"Queries": {
+			"Q_CLIEETNT_CE41": {
+				"name": "ClienteQuery"
+			},
+			"Q_PERSNOON_II64": {
+				"name": "PersonaQuery"
+			},
+			"Q_PROSECPC_FG47": {
+				"name": "ProspectoQuery"
+			}
+		},
+		"SubForms": {
+		}
+	}
+}

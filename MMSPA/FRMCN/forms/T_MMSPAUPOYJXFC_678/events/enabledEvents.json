@@ -1,0 +1,44 @@
+[
+	{
+		"attributeName": "saldoCuentaOrigen",
+		"controlId": "VA_2RBIFKCIFEHEVFE_502307",
+		"controlName": "saldoCuentaOrigen",
+		"controlType": "TextInputButton",
+		"customEvents": [
+			{
+				"eventName": "openEvent",
+				"executionType": 1
+			}
+		],
+		"entityName": "FormCuentas",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONYAMMGDQ_418307",
+		"controlName": "",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "FormCuentas",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_CUENTASAKB_765678",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

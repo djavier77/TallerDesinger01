@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEBS_652",
+			"isContextEntity": null,
+			"moduleId": "MMSPA",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

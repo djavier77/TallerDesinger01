@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEETNT_CE41",
+		"controlName": "ClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMSPA/SSMMZ/queries/Q_CLIEETNT_CE41.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	}
+]

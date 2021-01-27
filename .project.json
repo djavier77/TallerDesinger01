@@ -1,0 +1,31 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2020",
+	"moduleId": "MMSPA",
+	"modules": [
+		{
+			"moduleId": "MMSPA",
+			"moduleName": "Main",
+			"subModules": [
+				{
+					"subModuleId": "SSMMZ",
+					"subModuleName": "Main"
+				},
+				{
+					"subModuleId": "OPRCN",
+					"subModuleName": "Operaciones"
+				},
+				{
+					"subModuleId": "FRMCN",
+					"subModuleName": "FormCuentas"
+				},
+				{
+					"subModuleId": "CMBOS",
+					"subModuleName": "Combos"
+				}
+			]
+		}
+	],
+	"projectName": "tallerCobis",
+	"subModuleId": "CMBOS"
+}

@@ -1,0 +1,619 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TMMSPARN_8LZ_426",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI3293_bli_sp_persona_taller_actualizar",
+							"actionType": "BLI",
+							"controlId": "CM_TMMSPARN_8LZ"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 2,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMSPARN_8LZ"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_ACTUALIAZ_17719"
+				},
+				"labelId": "LBL_MMSPA_ACTUALIAZ_17719",
+				"moduleId": "MMSPA"
+			},
+			"layoutType": "Command",
+			"name": "Command2",
+			"options": 0,
+			"order": 2,
+			"showInMode": 2,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		},
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TMMSPARN_XP0_935",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI8709_bli_sp_persona_taller",
+							"actionType": "BLI",
+							"controlId": "CM_TMMSPARN_XP0"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 1,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMSPARN_XP0"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_GUARDARKR_75064"
+				},
+				"labelId": "LBL_MMSPA_GUARDARKR_75064",
+				"moduleId": "MMSPA"
+			},
+			"layoutType": "Command",
+			"name": "Command1",
+			"options": 0,
+			"order": 1,
+			"showInMode": 1,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		}
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "MMSPA",
+		"subModuleId": "SSMMZ",
+		"taskId": "T_MMSPARNLPQXQW_429",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_PERSONADYN_716429",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../MMSPA/relations/componentKeys.json#/SSMMZ/Forms/T_MMSPARNLPQXQW_429/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "SSMMZ",
+				"taskId": "T_MMSPARNLPQXQW_429",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_PERSONADYN_716429"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "formPersona",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_PERSONAPNP_483241",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1541",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT67_APELLIOO691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_APELLIDOO_11125"
+									},
+									"labelId": "LBL_MMSPA_APELLIDOO_11125",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_APELLIDOBKEKSDE_434241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT77_APELLIGD691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_APELLIDUC_42470"
+									},
+									"labelId": "LBL_MMSPA_APELLIDUC_42470",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "apellidoConyugue",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_APELLIDOCONYUUU_924241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT70_ESTADOII691"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": "cl_ecivil",
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_ESTADOCIVILGLCG_841241_683",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_ESTADOCVI_92938"
+									},
+									"labelId": "LBL_MMSPA_ESTADOCVI_92938",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "estadocivil",
+								"options": 0,
+								"order": 5,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_ESTADOCIVILGLCG_841241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT84_NOMBRENO691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_NOMBRECOG_25564"
+									},
+									"labelId": "LBL_MMSPA_NOMBRECOG_25564",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "nombreConyugue",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBRECONYUGUEU_317241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT99_NOMBREFQ691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_NOMBRERJE_70784"
+									},
+									"labelId": "LBL_MMSPA_NOMBRERJE_70784",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBREUHHHLMUSK_201241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT77_SEXOUYLB691"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": "cl_sexo",
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_SEXOYGAIY_54496"
+									},
+									"labelId": "LBL_MMSPA_SEXOYGAIY_54496",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "sexo",
+								"options": 0,
+								"order": 4,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_SEXOBWPXWVQTKUR_735241",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT38_TELEFONN691"
+								},
+								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_TELEFONOWKOTTAT_43624173",
+										"maxValue": "10",
+										"minValue": "0",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/MSG/MSG_MMSPA_MAXIMO1IT_26458"
+											},
+											"labelId": "MSG_MMSPA_MAXIMO1IT_26458",
+											"moduleId": "MMSPA"
+										},
+										"visualValidationType": {
+											"description": "RangeValues Validation",
+											"visualValidationId": "RangeValues"
+										}
+									}
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_TELEFONOO_75825"
+									},
+									"labelId": "LBL_MMSPA_TELEFONOO_75825",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "telefono",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TELEFONOWKOTTAT_436241",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_PERSONAWAI_241"
+				},
+				"metadataVersion": "7.2.0.2020",
+				"modules": [
+					{
+						"moduleId": "MMSPA"
+					}
+				],
+				"name": "View of formPersona"
+			}
+		}
+	]
+}

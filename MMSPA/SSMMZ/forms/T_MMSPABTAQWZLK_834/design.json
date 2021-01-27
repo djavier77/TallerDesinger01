@@ -1,0 +1,957 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "MMSPA",
+		"subModuleId": "SSMMZ",
+		"taskId": "T_MMSPABTAQWZLK_834",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_FILTROCFJH_510834",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../MMSPA/relations/componentKeys.json#/SSMMZ/Forms/T_MMSPABTAQWZLK_834/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "SSMMZ",
+				"taskId": "T_MMSPABTAQWZLK_834",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_FILTROCFJH_510834"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "formFiltro",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_FILTROMMNV_251904",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2590",
+						"order": 2,
+						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+								"Create",
+								"Update"
+							],
+							"allowPaging": true,
+							"allowPagingStr": "T",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": null,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": null,
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "0",
+							"entityName": {
+								"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT84_NOMBRENO691",
+								"AT67_APELLIOO691",
+								"AT77_SEXOUYLB691",
+								"AT70_ESTADOII691",
+								"AT99_NOMBREFQ691",
+								"AT79_IDPERSNN691",
+								"AT77_APELLIGD691",
+								"AT38_TELEFONN691"
+							],
+							"insertCommandEnabled": true,
+							"insertCommandEnabledStr": "T",
+							"isCustomized": false,
+							"modalSize": null,
+							"modeSelection": "None",
+							"moduleIdDialog": null,
+							"multiSelectEnabledStr": "F",
+							"name": "QV_HP64_QLZ86",
+							"options": 0,
+							"pageSize": 10,
+							"query": {
+								"$ref": "../../../../MMSPA/SSMMZ/queries/Q_PERSNOON_II64.json#"
+							},
+							"queryId": "Q_PERSNOON_II64",
+							"queryVersion": "1.0.0",
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_HP64_QLZ86",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": null,
+							"taskIdDialog": "1.0.0",
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": null
+						},
+						"queryViewId": "QV_HP64_QLZ86",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT84_NOMBRENO691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nombreConyugue",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXBBO_250904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT99_NOMBREFQ691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXCLD_547904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT70_ESTADOII691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "estadocivil",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXIFV_906904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT38_TELEFONN691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "telefono",
+								"options": 0,
+								"order": 8,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXJRN_911904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT77_APELLIGD691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellidoConyugue",
+								"options": 0,
+								"order": 7,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXKCO_756904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT79_IDPERSNN691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "idpersona",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXMDR_110904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT67_APELLIOO691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXPEY_179904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_PERSONAHO_691.json#/attributes/AT77_SEXOUYLB691"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "sexo",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXPSP_977904",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMSPA/entities/EN_FILTROBSR_597.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_FILTROSKRE_679904",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1505",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_FILTROBSR_597.json#/attributes/AT93_FILTROWM597"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": null,
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_FILTROUDKKWAGHX_950904_917",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_FILTROAQM_50298"
+									},
+									"labelId": "LBL_MMSPA_FILTROAQM_50298",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "filtro",
+								"options": 0,
+								"order": 1,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_FILTROUDKKWAGHX_950904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_740904_700",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"imageId": "fa fa-search",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "VA_VAIMAGEBUTTONNN_740904",
+								"options": 0,
+								"order": 2,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "ImageButton"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VAIMAGEBUTTONNN_740904",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_FILTROZJJU_285904",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group2609",
+						"order": 3,
+						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+								"Create",
+								"Update"
+							],
+							"allowPaging": false,
+							"allowPagingStr": "F",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": null,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": null,
+							"editCommandEnabled": true,
+							"editCommandEnabledStr": "T",
+							"editMode": "0",
+							"entityName": {
+								"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT85_APELLIDO652",
+								"AT30_NOMBREOG652",
+								"AT25_CEDULAPY652",
+								"AT99_TELEFOOO652",
+								"AT12_IDCLIETN652",
+								"AT27_NACIONII652"
+							],
+							"insertCommandEnabled": true,
+							"insertCommandEnabledStr": "T",
+							"isCustomized": false,
+							"modalSize": null,
+							"modeSelection": "None",
+							"moduleIdDialog": null,
+							"multiSelectEnabledStr": "F",
+							"name": "QV_GS41_EZE19",
+							"options": 0,
+							"pageSize": null,
+							"query": {
+								"$ref": "../../../../MMSPA/SSMMZ/queries/Q_CLIEETNT_CE41.json#"
+							},
+							"queryId": "Q_CLIEETNT_CE41",
+							"queryVersion": "1.0.0",
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_GS41_EZE19",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": null,
+							"taskIdDialog": "1.0.0",
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": null
+						},
+						"queryViewId": "QV_GS41_EZE19",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT85_APELLIDO652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXBMM_842904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT12_IDCLIETN652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "idcliente",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXCOI_717904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT99_TELEFOOO652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "telefono",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXCVW_296904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT27_NACIONII652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nacionalidad",
+								"options": 0,
+								"order": 6,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXFSU_639904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT25_CEDULAPY652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "cedula",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXGGV_189904",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT30_NOMBREOG652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXKEF_517904",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_FILTROXYJL_904"
+				},
+				"metadataVersion": "7.2.0.2020",
+				"modules": [
+					{
+						"moduleId": "MMSPA"
+					}
+				],
+				"name": "View of formFiltro"
+			}
+		}
+	]
+}

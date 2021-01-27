@@ -1,0 +1,44 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "CM_TMMSPARN_8LZ",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "CM_TMMSPARN_XP0",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "estadocivil",
+		"controlId": "VA_ESTADOCIVILGLCG_841241",
+		"controlName": "estadocivil",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "visualAttributeEventType"
+	}
+]

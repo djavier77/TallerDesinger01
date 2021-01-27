@@ -1,0 +1,43 @@
+{
+	"MMSPA": {
+		"LBL": {
+			"LBL_MMSPA_ACTIVIDLA_36878": "Actividad Actual",
+			"LBL_MMSPA_ACTUALIAZ_17719": "Actualizar",
+			"LBL_MMSPA_AGREGARTC_40475": "Agregar cliente",
+			"LBL_MMSPA_APELLIDOO_11125": "Apellido",
+			"LBL_MMSPA_APELLIDUC_42470": "Apellido Conyugue",
+			"LBL_MMSPA_CEDULAEUC_62604": "Cedula",
+			"LBL_MMSPA_CEDULAPWS_68166": "Cedula",
+			"LBL_MMSPA_CUENTADSN_17929": "Cuenta Destino",
+			"LBL_MMSPA_CUENTAOIE_71024": "Cuenta Origen",
+			"LBL_MMSPA_EDITCWKPM_26002": "Edit",
+			"LBL_MMSPA_ESTADOCVI_92938": "Estado Civil",
+			"LBL_MMSPA_FILTROAQM_50298": "Filtro",
+			"LBL_MMSPA_GRUPO01WQ_74431": "Grupo 01",
+			"LBL_MMSPA_GRUPO2SFK_27394": "Grupo 2",
+			"LBL_MMSPA_GUARDARKR_75064": "Guardar",
+			"LBL_MMSPA_LIMPIARYN_28995": "Limpiar",
+			"LBL_MMSPA_NACIONAAA_48084": "Nacionalidad",
+			"LBL_MMSPA_NOMBRECOG_25564": "Nombre Conyugue",
+			"LBL_MMSPA_NOMBRERJE_70784": "Nombre",
+			"LBL_MMSPA_NUMERO1PH_56499": "Numero 1",
+			"LBL_MMSPA_NUMERO2ZI_30626": "Numero 2",
+			"LBL_MMSPA_OKDLGNPOJ_61397": "Ok",
+			"LBL_MMSPA_REGISTRRA_40229": "Registrar",
+			"LBL_MMSPA_RESTAURAR_21175": "Restaurar",
+			"LBL_MMSPA_RESULTAOO_85998": "Resultado",
+			"LBL_MMSPA_SALDOCUAA_37955": "Saldo Cuenta",
+			"LBL_MMSPA_SELECCIOE_59877": "Seleccione",
+			"LBL_MMSPA_SEXOYGAIY_54496": "Sexo",
+			"LBL_MMSPA_SUMARAUSG_88522": "Sumar",
+			"LBL_MMSPA_TELEFONOO_75825": "Telefono",
+			"LBL_MMSPA_TIPODQRQL_82234": "Tipo",
+			"LBL_MMSPA_TRANSFERR_38438": "Transferir",
+			"LBL_MMSPA_VALORATSI_61391": "Valor a Transferir"
+		},
+		"MSG": {
+			"MSG_MMSPA_MAXIMO1AR_78773": "Maximo 10 Caracteres",
+			"MSG_MMSPA_MAXIMO1IT_26458": "Maximo 10 Digitos"
+		}
+	}
+}

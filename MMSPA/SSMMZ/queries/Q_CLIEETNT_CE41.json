@@ -1,0 +1,181 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIEETNT_CE41_714",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "BLI6711_bli_sp_cliente_taller_consulta",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIEETNT_CE41",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTEBS_652",
+	"mainEntityModule": "MMSPA",
+	"mainEntityName": {
+		"$ref": "../../../MMSPA/relations/componentKeys.json#/Entities/EN_CLIENTEBS_652/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../MMSPA/relations/componentKeys.json#/SSMMZ/Queries/Q_CLIEETNT_CE41/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT85_APELLIDO652"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE1TNTT949_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT30_NOMBREOG652"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEC44NN340_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT25_CEDULAPY652"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEECCC4T495_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT99_TELEFOOO652"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEECTEEE909_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "idcliente",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT12_IDCLIETN652"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEE4TET785_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nacionalidad",
+			"attribute": {
+				"$ref": "../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT27_NACIONII652"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEN4NTT713_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "SSMMZ"
+			}
+		}
+	]
+}

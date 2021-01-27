@@ -1,0 +1,62 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEETNT_CE41",
+		"controlName": "ClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMSPA/SSMMZ/queries/Q_CLIEETNT_CE41.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_PERSNOON_II64",
+		"controlName": "PersonaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMSPA/SSMMZ/queries/Q_PERSNOON_II64.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "filtro",
+		"controlId": "VA_FILTROUDKKWAGHX_950904",
+		"controlName": "filtro",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "FiltroBusquedaPersona",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_740904",
+		"controlName": "VA_VAIMAGEBUTTONNN_740904",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "FiltroBusquedaPersona",
+		"eventsType": "visualAttributeEventType"
+	}
+]

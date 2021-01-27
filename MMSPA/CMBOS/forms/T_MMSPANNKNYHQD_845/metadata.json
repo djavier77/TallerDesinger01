@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_COMBOSLGF_206",
+			"isContextEntity": null,
+			"moduleId": "MMSPA",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

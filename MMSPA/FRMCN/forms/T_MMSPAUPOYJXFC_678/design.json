@@ -1,0 +1,462 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "MMSPA",
+		"subModuleId": "FRMCN",
+		"taskId": "T_MMSPAUPOYJXFC_678",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_CUENTASAKB_765678",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../MMSPA/relations/componentKeys.json#/FRMCN/Forms/T_MMSPAUPOYJXFC_678/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_MMSPAUPOYJXFC_678_860",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "FRMCN",
+				"taskId": "T_MMSPAUPOYJXFC_678",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_CUENTASAKB_765678"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "FormCuentas",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 2,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"eventType": 0,
+						"groupId": "G_CUENTASGDO_203307",
+						"groups": [
+							{
+								"collapsedStr": "F",
+								"colSpan": 1,
+								"columnsNum": 2,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"enabled": 4095,
+								"entity": {
+									"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#"
+								},
+								"eventType": 0,
+								"groupId": "G_CUENTASQFU_901307",
+								"htmlSection": "F",
+								"independentValidation": "F",
+								"isCustomized": false,
+								"layoutType": "Group",
+								"name": "Group2432",
+								"order": 1,
+								"orientation": "V",
+								"parentLayoutType": "GroupLayout",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"style": null,
+								"visible": 4095,
+								"visualAttributes": [
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#/attributes/AT75_CUENTAOR414"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_CUENTAOIE_71024"
+											},
+											"labelId": "LBL_MMSPA_CUENTAOIE_71024",
+											"moduleId": "MMSPA"
+										},
+										"maxRecords": null,
+										"name": "cuentaOrigen",
+										"options": 0,
+										"order": 1,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_1AYSGWVXFBDXRQF_718307",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#/attributes/AT17_SALDOCTO414"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+											{
+												"customEventId": "CEVA_305VA_2RBIFKCIFEHEVFE_502307_151",
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": "T",
+												"eventActions": [
+												],
+												"executionType": 1,
+												"filter": null,
+												"isEnabled": true,
+												"visualAttributeEventType": {
+													"availableExecutionType": 1,
+													"description": "Permite abrir una ventana modal desde TextInputButton",
+													"eventId": 305,
+													"name": "OpenEvent"
+												}
+											}
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_SALDOCUAA_37955"
+											},
+											"labelId": "LBL_MMSPA_SALDOCUAA_37955",
+											"moduleId": "MMSPA"
+										},
+										"maxRecords": null,
+										"name": "saldoCuentaOrigen",
+										"options": 0,
+										"order": 2,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputButton"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_2RBIFKCIFEHEVFE_502307",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#/attributes/AT92_VALORTII414"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_VALORATSI_61391"
+											},
+											"labelId": "LBL_MMSPA_VALORATSI_61391",
+											"moduleId": "MMSPA"
+										},
+										"maxRecords": null,
+										"name": "valorTranferir",
+										"options": 0,
+										"order": 3,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_3RWTFLCLYOGHPNW_619307",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+											{
+												"customEventId": "CEVA_010VA_VABUTTONYAMMGDQ_418307_317",
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": "T",
+												"eventActions": [
+												],
+												"executionType": 1,
+												"filter": null,
+												"isEnabled": true,
+												"visualAttributeEventType": {
+													"availableExecutionType": 7,
+													"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+													"eventId": 10,
+													"name": "ExecuteCommand"
+												}
+											}
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"entityQuery": null,
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_TRANSFERR_38438"
+											},
+											"labelId": "LBL_MMSPA_TRANSFERR_38438",
+											"moduleId": "MMSPA"
+										},
+										"maxRecords": null,
+										"name": "",
+										"options": 0,
+										"order": 4,
+										"queryModule": null,
+										"queryVersion": null,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"userControl": {
+											"type": "A",
+											"userControlId": "Button"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_VABUTTONYAMMGDQ_418307",
+										"width": null,
+										"widthComposite": "D"
+									}
+								]
+							},
+							{
+								"collapsedStr": "F",
+								"colSpan": 1,
+								"columnsNum": 2,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"enabled": 4095,
+								"entity": {
+									"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#"
+								},
+								"eventType": 0,
+								"groupId": "G_CUENTASBLN_310307",
+								"htmlSection": "F",
+								"independentValidation": "F",
+								"isCustomized": false,
+								"layoutType": "Group",
+								"name": "Group2523",
+								"order": 2,
+								"orientation": "V",
+								"parentLayoutType": "GroupLayout",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"style": null,
+								"visible": 4095,
+								"visualAttributes": [
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#/attributes/AT63_CUENTAND414"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_CUENTADSN_17929"
+											},
+											"labelId": "LBL_MMSPA_CUENTADSN_17929",
+											"moduleId": "MMSPA"
+										},
+										"maxRecords": null,
+										"name": "cuentaDestino",
+										"options": 0,
+										"order": 1,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_1TTKNHOPNCWLVLW_560307",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../MMSPA/entities/EN_FROMCUESS_414.json#/attributes/AT69_SALDOCED414"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_SALDOCUAA_37955"
+											},
+											"labelId": "LBL_MMSPA_SALDOCUAA_37955",
+											"moduleId": "MMSPA"
+										},
+										"maxRecords": null,
+										"name": "saldoCuentaDestino",
+										"options": 0,
+										"order": 2,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_2FRGBPZEZLXZJHP_567307",
+										"width": null,
+										"widthComposite": "D"
+									}
+								]
+							}
+						],
+						"isCustomized": false,
+						"layoutType": "GroupLayout",
+						"name": "GroupLayout1849",
+						"order": 1,
+						"style": null,
+						"visible": 4095
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_CUENTASVKA_307"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "MMSPA"
+					}
+				],
+				"name": "View of FormCuentas"
+			}
+		}
+	]
+}

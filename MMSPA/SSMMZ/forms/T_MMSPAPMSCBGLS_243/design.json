@@ -1,0 +1,491 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TMMSPAPM_4A7_792",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI2750_bli_sp_cliente_taller_actualizar",
+							"actionType": "BLI"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 2,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMSPAPM_4A7"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_ACTUALIAZ_17719"
+				},
+				"labelId": "LBL_MMSPA_ACTUALIAZ_17719",
+				"moduleId": "MMSPA"
+			},
+			"layoutType": "Command",
+			"name": "Command2",
+			"options": 0,
+			"order": 2,
+			"showInMode": 2,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		},
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TMMSPAPM_SSC_689",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI9410_bli_sp_cliente_taller",
+							"actionType": "BLI",
+							"controlId": "CM_TMMSPAPM_SSC"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 1,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMSPAPM_SSC"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_GUARDARKR_75064"
+				},
+				"labelId": "LBL_MMSPA_GUARDARKR_75064",
+				"moduleId": "MMSPA"
+			},
+			"layoutType": "Command",
+			"name": "Command1",
+			"options": 0,
+			"order": 1,
+			"showInMode": 1,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		}
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "MMSPA",
+		"subModuleId": "SSMMZ",
+		"taskId": "T_MMSPAPMSCBGLS_243",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_CLIENTEUFI_757243",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../MMSPA/relations/componentKeys.json#/SSMMZ/Forms/T_MMSPAPMSCBGLS_243/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "MMSPA",
+				"subModuleId": "SSMMZ",
+				"taskId": "T_MMSPAPMSCBGLS_243",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_CLIENTEUFI_757243"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "formCliente",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CLIENTEGCK_357534",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1732",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT85_APELLIDO652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_APELLIDOO_11125"
+									},
+									"labelId": "LBL_MMSPA_APELLIDOO_11125",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_APELLIDOKIWKSMO_712534",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT25_CEDULAPY652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_CEDULAPWS_68166"
+									},
+									"labelId": "LBL_MMSPA_CEDULAPWS_68166",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "cedula",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CEDULAKIRWTHLKU_997534",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT27_NACIONII652"
+								},
+								"attributeValidations": [
+								],
+								"cacheDuration": 0,
+								"catalogName": "cl_pais",
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_NACIONAAA_48084"
+									},
+									"labelId": "LBL_MMSPA_NACIONAAA_48084",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"minChars": null,
+								"name": "nacionalidad",
+								"options": 0,
+								"order": 5,
+								"queryId": null,
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": null,
+										"name": null
+									},
+									"queryMemberId": null
+								},
+								"queryModule": null,
+								"queryVersion": null,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"type": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "ComboBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NACIONALIDADRML_853534",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT30_NOMBREOG652"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_NOMBRERJE_70784"
+									},
+									"labelId": "LBL_MMSPA_NOMBRERJE_70784",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBREJTHQBWEZM_532534",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMSPA/entities/EN_CLIENTEBS_652.json#/attributes/AT99_TELEFOOO652"
+								},
+								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_TELEFONOPHQZCJN_14453445",
+										"maxValue": "10",
+										"minValue": "0",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/MSG/MSG_MMSPA_MAXIMO1AR_78773"
+											},
+											"labelId": "MSG_MMSPA_MAXIMO1AR_78773",
+											"moduleId": "MMSPA"
+										},
+										"visualValidationType": {
+											"description": "RangeValues Validation",
+											"visualValidationId": "RangeValues"
+										}
+									}
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMSPA/assets/languages/MMSPA.json#/MMSPA/LBL/LBL_MMSPA_TELEFONOO_75825"
+									},
+									"labelId": "LBL_MMSPA_TELEFONOO_75825",
+									"moduleId": "MMSPA"
+								},
+								"maxRecords": null,
+								"name": "telefono",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TELEFONOPHQZCJN_144534",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_CLIENTESCV_534"
+				},
+				"metadataVersion": "7.2.0.2020",
+				"modules": [
+					{
+						"moduleId": "MMSPA"
+					}
+				],
+				"name": "View of formCliente"
+			}
+		}
+	]
+}

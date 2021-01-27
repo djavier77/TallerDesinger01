@@ -1,0 +1,118 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		}
+	],
+	"name": "BLI_sp_cliente_taller_consulta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6711_bli_sp_cliente_taller_consulta",
+	"patternName": "BLI_sp_cliente_taller_consulta",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "bdea3889-a3d5-4bca-acdc-522a98c2a71c",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT \tcl_id,\r\n\t   \t\t\tcl_nombre,\r\n\t   \t\t\tcl_apellido,\r\n\t   \t\t\tcl_telefono,\r\n\t   \t\t\tcl_cedula,\r\n\t   \t\t\tpa_nacionalidad\r\n\t   \t\t\tFROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "bdea3889-a3d5-4bca-acdc-522a98c2a71c",
+			"columns": [
+				{
+					"attributeId": "AT12_IDCLIETN652",
+					"entityId": "EN_CLIENTEBS_652",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT30_NOMBREOG652",
+					"entityId": "EN_CLIENTEBS_652",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT85_APELLIDO652",
+					"entityId": "EN_CLIENTEBS_652",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT99_TELEFOOO652",
+					"entityId": "EN_CLIENTEBS_652",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT25_CEDULAPY652",
+					"entityId": "EN_CLIENTEBS_652",
+					"format": "",
+					"name": "cedula",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT27_NACIONII652",
+					"entityId": "EN_CLIENTEBS_652",
+					"format": "",
+					"name": "nacionalidad",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEBS_652",
+			"module": {
+				"moduleId": "MMSPA",
+				"moduleName": "Main"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

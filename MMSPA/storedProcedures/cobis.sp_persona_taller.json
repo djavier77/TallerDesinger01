@@ -1,0 +1,201 @@
+{
+	"filename": "D:\\CapacitacionCMC\\CTS\\sp to json\\cobis.sp_persona_taller.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_persona_taller",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_telefono"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_sexo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado_civil"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre_conyugue"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido_conyugue"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_id"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "f7bedd57-2870-4dc3-99e2-7b17880ca9f7",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono"
+				],
+				"editMode": false,
+				"queryText": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono\r\n              FROM"
+			},
+			{
+				"_idQuery": "599c4e7c-3b24-45d1-a4f7-307413b6b04f",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono",
+					"estadocivil",
+					"nombreConyugue",
+					"apellidoConyugue"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "1352c7b1-765c-40e9-b156-bfef4e718dbc",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono",
+					"sexo",
+					"estadocivil",
+					"nombreConyugue",
+					"apellidoConyugue"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "6b27a6f5-943d-44a2-9600-1a3ce9ea3ad0",
+				"columns": [
+					"id",
+					" nombre",
+					"apellido",
+					"telefono",
+					"estado",
+					"tipo",
+					"fechaI"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "15c0a0c5-4556-4aec-ab12-9c3e809a908b",
+				"columns": [
+					"id",
+					" nombre",
+					"apellido",
+					"telefono",
+					"estado",
+					"tipo",
+					"fechaI"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

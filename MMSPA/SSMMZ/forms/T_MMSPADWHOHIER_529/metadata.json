@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FILTROBSR_597",
+			"isContextEntity": null,
+			"moduleId": "MMSPA",
+			"related": false
+		},
+		{
+			"entityId": "EN_PROSPECTO_215",
+			"isContextEntity": null,
+			"moduleId": "MMSPA",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "MMSPA",
+			"queryId": "Q_PROSECPC_FG47",
+			"related": false,
+			"subModuleId": "SSMMZ"
+		}
+	]
+}

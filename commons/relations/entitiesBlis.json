@@ -1,0 +1,140 @@
+{
+	"MMSPA": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEBS_652",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2750_bli_sp_cliente_taller_actualizar",
+			"nameBli": "BLI_sp_cliente_taller_actualizar"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PERSONAHO_691",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3293_bli_sp_persona_taller_actualizar",
+			"nameBli": "BLI_sp_persona_taller_actualizar"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECTO_215",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5465_bli_sp_persona_taller_b",
+			"nameBli": "BLI_sp_persona_taller_b"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECTO_215",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5549_bli_sp_persona_taller_prospecto",
+			"nameBli": "BLI_sp_persona_taller_prospecto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PERSONAHO_691",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI6576_bli_sp_persona_tallerconsulta",
+			"nameBli": "BLI_sp_persona_tallerConsulta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEBS_652",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI6711_bli_sp_cliente_taller_consulta",
+			"nameBli": "BLI_sp_cliente_taller_consulta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PERSONAHO_691",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8709_bli_sp_persona_taller",
+			"nameBli": "BLI_sp_persona_taller"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEBS_652",
+						"moduleId": "MMSPA",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9410_bli_sp_cliente_taller",
+			"nameBli": "BLI_sp_cliente_taller"
+		}
+	]
+}

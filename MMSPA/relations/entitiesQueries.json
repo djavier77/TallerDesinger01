@@ -1,0 +1,23 @@
+{
+	"EN_CLIENTEBS_652": {
+		"queries": {
+			"Q_CLIEETNT_CE41": {
+				"$ref": "../SSMMZ/queries/Q_CLIEETNT_CE41.json#"
+			}
+		}
+	},
+	"EN_PERSONAHO_691": {
+		"queries": {
+			"Q_PERSNOON_II64": {
+				"$ref": "../SSMMZ/queries/Q_PERSNOON_II64.json#"
+			}
+		}
+	},
+	"EN_PROSPECTO_215": {
+		"queries": {
+			"Q_PROSECPC_FG47": {
+				"$ref": "../SSMMZ/queries/Q_PROSECPC_FG47.json#"
+			}
+		}
+	}
+}
